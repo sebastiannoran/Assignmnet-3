@@ -38,8 +38,8 @@ const posters = [
   
   // Event listener for submit button
   // TODO: Add an event listener to the submitButton that calls a function when clicked
-    const submitButtom = document.getElementById("submit")
-    submitButtom.addEventListener("click", generateCustomPoster);
+    const submitButton = document.getElementById("submit");
+    submitButton.addEventListener("click", generateCustomPoster);
   
 
     // Function to generate a random poster
